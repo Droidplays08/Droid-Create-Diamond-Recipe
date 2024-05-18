@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "droid_create_diamond_recipe:block/heated_lava_coal_block"
+    }
+  }
+}

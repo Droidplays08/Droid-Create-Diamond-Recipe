@@ -1,0 +1,22 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "droid_create_diamond_recipe:compressed_lava_coal_block"
+    },
+    {
+      "fluid": "minecraft:lava",
+      "amount": 250
+    },
+    {
+      "item": "create:scoria",
+      "count": 16
+    }
+  ],
+  "results": [
+    {
+      "item": "droid_create_diamond_recipe:heated_scorial_coal_block"
+    }
+  ],
+  "heatRequirement": "superheated"
+}

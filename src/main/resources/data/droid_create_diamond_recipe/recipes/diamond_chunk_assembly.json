@@ -1,0 +1,103 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "droid_create_diamond_recipe:haunted_scorial_coal"
+  },
+  "transitionalItem": {
+    "item": "droid_create_diamond_recipe:impure_diamond_chunk"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "droid_create_diamond_recipe:impure_diamond_chunk"
+        },
+        {
+          "item": "create:experience_nugget"
+        }
+      ],
+      "results": [
+        {
+          "item": "droid_create_diamond_recipe:impure_diamond_chunk"
+        }
+      ]
+    },
+    {
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "droid_create_diamond_recipe:impure_diamond_chunk"
+        }
+      ],
+      "results": [
+        {
+          "item": "droid_create_diamond_recipe:impure_diamond_chunk"
+        }
+      ],
+      "processingTime": 50
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "droid_create_diamond_recipe:impure_diamond_chunk"
+        },
+        {
+          "tag": "create:sandpaper"
+        }
+      ],
+      "results": [
+        {
+          "item": "droid_create_diamond_recipe:impure_diamond_chunk"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "droid_create_diamond_recipe:impure_diamond_chunk"
+        }
+      ],
+      "results": [
+        {
+          "item": "droid_create_diamond_recipe:impure_diamond_chunk"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "droid_create_diamond_recipe:diamond_chunk",
+      "count": 1,
+      "chance": 0.10
+    },
+    {
+      "item": "minecraft:coal_block",
+      "count": 1,
+      "chance": 0.30
+    },
+    {
+      "item": "minecraft:blackstone",
+      "count": 3,
+      "chance": 0.20
+    },
+    {
+      "item": "create:scoria",
+      "count": 2,
+      "chance": 0.30
+    },
+    {
+      "item": "minecraft:basalt",
+      "count": 3,
+      "chance": 0.08
+    },
+    {
+      "item": "droid_create_diamond_recipe:diamond_chunk",
+      "count": 4,
+      "chance": 0.02
+    }
+  ],
+  "loops": 10
+}

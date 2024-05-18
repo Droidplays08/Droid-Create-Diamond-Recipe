@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "droid_create_diamond_recipe:heated_lava_coal_block",
+    "droid_create_diamond_recipe:unprocessed_lava_coal_block",
+    "droid_create_diamond_recipe:compressed_lava_coal_block",
+    "droid_create_diamond_recipe:heated_scorial_coal_block",
+    "droid_create_diamond_recipe:scorial_coal_block"
+  ]
+}
