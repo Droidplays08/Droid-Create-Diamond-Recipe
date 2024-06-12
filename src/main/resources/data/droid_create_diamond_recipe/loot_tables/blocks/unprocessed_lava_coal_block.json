@@ -11,7 +11,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "droid_create_diamond_recipe:unprocessed_lava_coal_block"
+          "name": "droid_create_diamond_recipe:heated_lava_coal_block"
         }
       ],
       "rolls": 1.0
