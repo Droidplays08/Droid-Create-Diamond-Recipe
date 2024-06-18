@@ -16,7 +16,7 @@ public class ModCreativeModeTabs {
 
     public static final RegistryObject<CreativeModeTab> TUTORIAL_TAB = Creative_Mode_Tabs.register("droid_create_diamond_recipe_tab",
             () -> CreativeModeTab.builder()
-                    .icon(() -> new ItemStack(ModItems.SCORIAL_COAL.get()))
+                    .icon(() -> new ItemStack(ModItems.DIAMOND_CHUNK.get()))
                     .title(Component.translatable("creativetab.droid_create_diamond_recipe_tab"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModBlocks.HEATED_LAVA_COAL_BLOCK.get());
