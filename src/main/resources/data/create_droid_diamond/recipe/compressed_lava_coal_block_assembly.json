@@ -1,0 +1,145 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create_droid_diamond:heated_lava_coal_block"
+  },
+  "transitional_item": {
+    "id": "create_droid_diamond:unprocessed_lava_coal_block"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_droid_diamond:unprocessed_lava_coal_block"
+        },
+        {
+          "item": "minecraft:magma_block"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_droid_diamond:unprocessed_lava_coal_block"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "create_droid_diamond:unprocessed_lava_coal_block"
+        },
+        {
+          "type": "fluid_stack",
+          "fluid": "minecraft:lava",
+          "amount": 100
+        }
+      ],
+      "results": [
+        {
+          "id": "create_droid_diamond:unprocessed_lava_coal_block"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_droid_diamond:unprocessed_lava_coal_block"
+        },
+        {
+          "item": "minecraft:blackstone"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_droid_diamond:unprocessed_lava_coal_block"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_droid_diamond:unprocessed_lava_coal_block"
+        },
+        {
+          "item": "minecraft:basalt"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_droid_diamond:unprocessed_lava_coal_block"
+        }
+      ]
+    },
+    {
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "create_droid_diamond:unprocessed_lava_coal_block"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_droid_diamond:unprocessed_lava_coal_block"
+        }
+      ],
+      "processingTime": 50
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "create_droid_diamond:unprocessed_lava_coal_block"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_droid_diamond:unprocessed_lava_coal_block"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "create_droid_diamond:unprocessed_lava_coal_block"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_droid_diamond:unprocessed_lava_coal_block"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "id": "create_droid_diamond:compressed_lava_coal_block",
+      "count": 1,
+      "chance": 0.80
+    },
+    {
+      "id": "create_droid_diamond:heated_lava_coal_block",
+      "count": 1,
+      "chance": 0.05
+    },
+    {
+      "id": "minecraft:magma_block",
+      "count": 2,
+      "chance": 0.05
+    },
+    {
+      "id": "minecraft:blackstone",
+      "count": 2,
+      "chance": 0.05
+    },
+    {
+      "id": "minecraft:basalt",
+      "count": 2,
+      "chance": 0.05
+    }
+  ],
+  "loops": 5
+}

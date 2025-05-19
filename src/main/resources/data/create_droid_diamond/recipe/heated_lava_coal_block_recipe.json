@@ -1,0 +1,19 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:coal_block"
+    },
+    {
+      "type": "fluid_stack",
+      "fluid": "minecraft:lava",
+      "amount": 500
+    }
+  ],
+  "results": [
+    {
+      "id": "create_droid_diamond:heated_lava_coal_block"
+    }
+  ],
+  "heatRequirement": "superheated"
+}

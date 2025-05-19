@@ -1,0 +1,103 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create_droid_diamond:haunted_scorial_coal"
+  },
+  "transitional_item": {
+    "id": "create_droid_diamond:impure_diamond_chunk"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_droid_diamond:impure_diamond_chunk"
+        },
+        {
+          "item": "create:experience_nugget"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_droid_diamond:impure_diamond_chunk"
+        }
+      ]
+    },
+    {
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "create_droid_diamond:impure_diamond_chunk"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_droid_diamond:impure_diamond_chunk"
+        }
+      ],
+      "processingTime": 50
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_droid_diamond:impure_diamond_chunk"
+        },
+        {
+          "item": "minecraft:sand"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_droid_diamond:impure_diamond_chunk"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "create_droid_diamond:impure_diamond_chunk"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_droid_diamond:impure_diamond_chunk"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "id": "create_droid_diamond:diamond_chunk",
+      "count": 1,
+      "chance": 0.10
+    },
+    {
+      "id": "minecraft:coal_block",
+      "count": 1,
+      "chance": 0.30
+    },
+    {
+      "id": "minecraft:blackstone",
+      "count": 3,
+      "chance": 0.20
+    },
+    {
+      "id": "create:scoria",
+      "count": 2,
+      "chance": 0.30
+    },
+    {
+      "id": "minecraft:basalt",
+      "count": 3,
+      "chance": 0.08
+    },
+    {
+      "id": "create_droid_diamond:diamond_chunk",
+      "count": 4,
+      "chance": 0.02
+    }
+  ],
+  "loops": 10
+}
