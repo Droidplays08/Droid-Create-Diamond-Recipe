@@ -1,6 +1,6 @@
 package net.droidplays08.droid_create_diamond_recipe.item;
 
-import net.droidplays08.droid_create_diamond_recipe.Droid_Create_Diamond_Recipe;
+import net.droidplays08.droid_create_diamond_recipe.CreateDroidDiamond;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -9,7 +9,7 @@ import net.minecraftforge.registries.RegistryObject;
 
 public class ModItems {
     public static final DeferredRegister<Item> Items =
-            DeferredRegister.create(ForgeRegistries.ITEMS, Droid_Create_Diamond_Recipe.MOD_ID);
+            DeferredRegister.create(ForgeRegistries.ITEMS, CreateDroidDiamond.MOD_ID);
 
     public static final RegistryObject<Item> SCORIAL_COAL = Items.register("scorial_coal",
             () -> new Item(new Item.Properties()));

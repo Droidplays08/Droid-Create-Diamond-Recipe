@@ -1,6 +1,6 @@
 package net.droidplays08.droid_create_diamond_recipe.block;
 
-import net.droidplays08.droid_create_diamond_recipe.Droid_Create_Diamond_Recipe;
+import net.droidplays08.droid_create_diamond_recipe.CreateDroidDiamond;
 import net.droidplays08.droid_create_diamond_recipe.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -16,7 +16,7 @@ import java.util.function.Supplier;
 
 public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
-            DeferredRegister.create(ForgeRegistries.BLOCKS, Droid_Create_Diamond_Recipe.MOD_ID);
+            DeferredRegister.create(ForgeRegistries.BLOCKS, CreateDroidDiamond.MOD_ID);
 
     public static final RegistryObject<Block> HEATED_LAVA_COAL_BLOCK = registerBlock("heated_lava_coal_block",
             () -> new Block(BlockBehaviour.Properties

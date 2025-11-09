@@ -1,6 +1,6 @@
 package net.droidplays08.droid_create_diamond_recipe.item;
 
-import net.droidplays08.droid_create_diamond_recipe.Droid_Create_Diamond_Recipe;
+import net.droidplays08.droid_create_diamond_recipe.CreateDroidDiamond;
 import net.droidplays08.droid_create_diamond_recipe.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
@@ -12,12 +12,12 @@ import net.minecraftforge.registries.RegistryObject;
 
 public class ModCreativeModeTabs {
     public static final DeferredRegister<CreativeModeTab> Creative_Mode_Tabs =
-            DeferredRegister.create(Registries.CREATIVE_MODE_TAB, Droid_Create_Diamond_Recipe.MOD_ID);
+            DeferredRegister.create(Registries.CREATIVE_MODE_TAB, CreateDroidDiamond.MOD_ID);
 
-    public static final RegistryObject<CreativeModeTab> TUTORIAL_TAB = Creative_Mode_Tabs.register("droid_create_diamond_recipe_tab",
+    public static final RegistryObject<CreativeModeTab> TUTORIAL_TAB = Creative_Mode_Tabs.register("create_droid_diamond_tab",
             () -> CreativeModeTab.builder()
                     .icon(() -> new ItemStack(ModItems.DIAMOND_CHUNK.get()))
-                    .title(Component.translatable("creativetab.droid_create_diamond_recipe_tab"))
+                    .title(Component.translatable("creativetab.create_droid_diamond_tab"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModBlocks.HEATED_LAVA_COAL_BLOCK.get());
                         output.accept(ModBlocks.UNPROCESSED_LAVA_COAL_BLOCK.get());
